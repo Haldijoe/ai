@@ -5,10 +5,5 @@ export default {
   preprocess: preprocess(),
   kit: {
     adapter: adapter(),
-    files: {
-      assets: 'static',
-      routes: 'src/routes',
-      template: 'app.html'
-    }
   }
 };
