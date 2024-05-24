@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-container > div {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+.input-container input {
+    width: 100%;
+}
+
+.input-container label {
+    margin-bottom: 0.5rem;
+}
+
+.prediction-container {
+    margin-top: 20px;
+}
+
+.prediction-container div {
+    margin-bottom: 10px;
+}
