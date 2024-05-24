@@ -7,8 +7,13 @@ export default {
     target: '#svelte',
     adapter: adapter(),
     vite: {
-      ssr: {
-        noExternal: ['@sveltejs/kit']
+      build: {
+        rollupOptions: {
+          input: {
+            main: 'app.html',
+            nested: 'index.html'
+          }
+        }
       }
     }
   }
