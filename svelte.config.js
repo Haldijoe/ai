@@ -8,7 +8,7 @@ export default {
     files: {
       assets: 'static',
       routes: 'src/routes',
-      template: 'src/app.html'
+      template: 'app.html'
     }
   }
 };
