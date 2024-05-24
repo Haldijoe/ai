@@ -26,7 +26,7 @@ let prediction = "...";
 
 
 	function handleSubmit() {
-		let url = "http://127.0.0.1:5000/api/prediction/stock";
+		let url = "https://haldijoe.pythonanywhere.com/api/prediction/stock";
 		let data = {
 			Volume: volume,
 			MA_20: ma_20,
